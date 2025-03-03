@@ -1,6 +1,7 @@
 {
   "name": "assets",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,10 +9,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "dotenv": "^16.4.7",
     "inquirer": "^12.4.2",
     "pg": "^8.13.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VampMina528/Employee-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VampMina528/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/VampMina528/Employee-Tracker#readme",
+  "description": ""
 }
